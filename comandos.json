@@ -1,0 +1,9 @@
+{
+    "carrinhos": [
+        {
+            "id": "1",
+            "status": "fechado",
+            "senha": "000000"
+        }
+    ]
+}

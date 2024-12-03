@@ -1,0 +1,1249 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+body{
+    font-family: "Space Grotesk";
+    margin: 0;
+}
+
+header{
+    background-color: #4d4d4d;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+h1{
+    font-weight: bold;
+    margin: 0px;
+    font-family: "Space Grotesk";
+}
+
+hr{
+    width: 100%;
+    height: 1px;
+    border: 0px;
+    border-top: 3px solid red;
+    background-color: #dddddd;
+    border-radius: 10px;
+}
+
+ .navegacao{
+    height: 20vw;
+    width: 100%;
+    /* background-color: #ff0000; */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 30px;
+    backdrop-filter: blur(1.5px);
+    font-size: 3vw;   
+}
+
+input[type="text"], input[type="number"], input[type="email"], input[type="password"], input[type="time"], textarea{
+    background-color: #e9e9e9;
+    height: 40px;
+    border-radius: 15px;
+    width: calc(100% - 24px);
+    padding: 0px 10px;
+    border: 2px solid transparent;
+    font-family: "Space Grotesk";
+    transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+}
+
+input[type="text"]:hover, input[type="text"], textarea:focus{
+    outline: none;
+    border-color: red;
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+}
+
+.char-count {
+    position: absolute;
+    right: 10px; /* Ajuste a distância do lado direito conforme necessário */
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray; /* Cor do texto */
+    pointer-events: none; /* Para que o texto não "Space Grotesk"fira com cliques */
+}
+
+textarea {
+    height: 120px; /* Altura do textarea */
+    resize: none; /* Impede redimensionamento */
+}
+
+.img_notebook{
+    text-decoration: none;
+    background-color: black;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../imagens/notebook_img.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+}
+.img_tabela{
+    text-decoration: none;
+    background-color: black;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../imagens/tabela_img.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+}
+
+.img_calendario{
+    text-decoration: none;
+    background-color: black;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../imagens/calendario_img.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+}
+
+.img_manual{
+    text-decoration: none;
+    background-color: black;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../imagens/manual_img.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+}
+.homeProf{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.icone{
+    width: 30px;
+    height: 30px;
+}
+
+.homeProf a{
+    width: calc(50% - 10px);
+}
+
+
+a{
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+a:hover{
+    color: rgb(255, 108, 108);
+    transition: 0.3s;
+}
+
+.buttonHome{
+    background-color: #ff0000;
+    display: flex;
+    color: white;
+    align-items: center;
+    width: 175px;
+    justify-content: space-evenly;
+    border-radius: 30px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.buttonHome .icone{
+    width: 30px;
+    height: 30px;
+}
+
+.linha{
+    width: 100%;
+    height: 10px;
+    background-color: red;
+}
+
+.cabecalho div{
+    height: 70px;
+    width: 3px;
+    background-color: white;
+    margin: 0px 10px;
+}
+
+.cabecalho{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    height: 50px;
+}
+.divPerfil{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.home{
+    width: 50px;
+    height: 50px;
+}
+
+main{
+    margin: 30px 30px;
+    min-height: calc(100vh - 415px);
+}
+
+h2{
+    text-align: center;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.oQueFazer{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.oQueFazer p{
+    margin: 30px 0px;
+}
+
+.fotoPerfil{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: red;
+    object-fit: cover;
+}
+
+
+.email{
+    text-align: left;
+}
+
+.perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fundoPerfil{
+    margin: 0px;
+    position: relative; /* Torna a div um contêiner para posicionamento absoluto */
+}
+
+
+.nomeComp{
+    font-size: xx-large;
+    font-weight: bold;
+    word-wrap: break-word;  /* Faz o texto quebrar se necessário */
+    word-break: break-all;  /* Quebra palavras longas (como emails) */
+    white-space: normal;    /* Garante que o texto pode quebrar normalmente */
+}
+
+.email{
+    font-size: x-large;
+    word-wrap: break-word;  /* Faz o texto quebrar se necessário */
+    word-break: break-all;  /* Quebra palavras longas (como emails) */
+    white-space: normal;    /* Garante que o texto pode quebrar normalmente */
+}
+
+.espBotao button, .editInfo{
+    width: 100%;
+    /* min-width: 200px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.espBotao button:nth-child(1){
+    margin-right: 0px;
+}
+.espBotao button:nth-child(2){
+    margin-left: 0px;
+}
+
+.espBotao{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.email{
+    font-size: x-large;
+}
+
+.codAcesso{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.codAcesso p{
+    background-color: #E7E7E7;
+    border-radius: 15px;
+    font-size: xx-large;
+    text-align: center;
+    padding: 10px;
+    width: 30px;
+}
+
+.senha{
+    padding: 30px 0;
+}
+
+.aviso{
+    text-align: center;
+    font-size: 20px;
+}
+
+input[type="text"], input[type="number"], input[type="email"], input[type="password"], input[type="time"]{
+    background-color: #e9e9e9;
+    height: 40px;
+    border-radius: 15px;
+    width: calc(100% - 24px);
+    padding: 0px 10px;
+    border: 2px solid transparent;
+    font-family: "Space Grotesk";
+    transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+}
+select{
+    background-color: #e9e9e9;
+    height: 44px;
+    border-radius: 15px;
+    width: 100%;
+    padding: 0px 10px;
+    border: 2px solid transparent;
+    font-family: "Space Grotesk";
+    transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+}
+
+input[type="text"]:hover, input[type="text"]:focus{
+    outline: none;
+    border-color: red;
+}
+
+input[type="email"]:hover, input[type="email"]:focus{
+    outline: none;
+    border-color: red;
+}
+
+input[type="number"]:hover, input[type="number"]:focus{
+    outline: none;
+    border-color: red;
+}
+
+input[type="password"]:hover, input[type="password"]:focus{
+    outline: none;
+    border-color: red;
+}
+
+input[type="time"]:hover, input[type="time"]:focus{
+    outline: none;
+    border-color: red;
+}
+
+select:hover, select:focus{
+    outline: none;
+    border-color: red;
+}
+
+.divRadio{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+button, .submit, .sair{
+    font-family: "Space Grotesk";
+    background-color: red;
+    color: white;
+    border: 0;
+    font-size: xx-large;
+    height: 60px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+button:hover, .submit:hover, .sair:hover{
+    background-color: rgb(255, 108, 108);
+    transition: 0.3s;
+}
+.confirmar{
+    display: flex;
+    font-family: "Space Grotesk";
+    background-color: red;
+    color: white;
+    border: 0;
+    font-size: x-large;
+    text-decoration: none;
+    width: 100%;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    background-color: red;
+    color: white;
+    padding: 30px;
+}
+
+.senaiFooter{
+    width: 250px;
+    object-fit: contain;
+}
+
+.endereco{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.endereco div{
+    max-width: 330px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.endereco div div{
+    display: flex;
+    flex-direction: column;
+}
+.endereco p, .endereco h4{
+    margin: 5px;
+    margin-left: 10px;
+}
+.icones{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.feito{
+    font-size: x-small;
+    text-align: center;
+}
+.copyright{
+    text-align: center;
+    margin: 10px;
+}
+
+.dadosPessoais div{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.dadosPessoais{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.dadosPessoais div input:disabled{
+    background-color: white;
+    padding: 0px;
+    border: 0px;
+    color: black;
+    font-size: large;
+}
+
+.dadosPessoais div input:disabled:hover{
+    border: 0px;
+}
+
+/* Caixa para o marcador */
+.radioSimples {
+    appearance: none;
+    position: relative;
+    /* Tamanho */
+    width: 25px;
+    height: 25px;
+    /* Cor do fundo e borda */
+    background-color: #fff;
+    border: 0.125rem solid #ccc;
+    border-radius: 50%;
+  }
+  
+  /* Características do marcador */
+  .radioSimples::before {
+    content: "";
+    /* Posicionar no meio */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* Tamanho do marcador */
+    width: 0.75rem;
+    height: 0.75rem;
+    /* Formato do marcador */
+    clip-path: circle(50%);
+    /* Posicionar no meio */
+    transform: translate(-50%, -50%) scale(0);
+    transform-origin: center;
+    transition: 0.125s transform ease-in-out;
+    /* Cor do marcador */
+    box-shadow: inset 1rem 1rem #fff;
+  }
+  
+  /* Cor da caixa para o marcador */
+  .radioSimples:checked {
+    background-color: red;
+    border-color: red;
+  }
+  
+  /* Características do marcador quando selecionado */
+  .radioSimples:checked::before {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  
+  /* Características do marcador quando selecionado */
+  .radioSimples:disabled {
+    opacity: 0.25;
+  }
+  
+  .radioSimples:focus {
+    border-color: red;
+  }
+
+    .botao{
+        background-color: #ff0000;
+        display: flex;
+        padding: 10px 15px;
+        max-width: 220px;
+        border-radius: 50px;
+        flex-wrap: wrap;
+    }
+
+    .botao p{
+        color: white;
+        padding: 5px;
+        text-align: center;
+        width: 100px;
+        margin: 0px;
+    }
+
+    .slider{
+        background-color: rgba(255, 255, 255, 0.33);
+        border-radius: 30px;
+    }
+   
+
+   html ::-webkit-scrollbar {
+    width: 15px;
+    height: 15px;
+    }
+
+    html ::-webkit-scrollbar-thumb {
+        border-radius: 50px;
+        background: rgb(172, 172, 172);
+    }
+    html ::-webkit-scrollbar-track {
+        background: rgb(235, 235, 235);
+    }
+
+@media screen and (min-width: 1000px){
+    .logo{
+        height: 70px;
+    }
+    .divPerfil{
+        width: 70px;
+        height: 70px;
+    }
+    .icon, .home{
+        width: 70px;
+        height: 70px;
+    }
+    header{
+        height: 70px;
+    }
+    .codAcesso p{
+        background-color: #E7E7E7;
+        border-radius: 15px;
+        font-size: xxx-large;
+        padding: 15px;
+        width: 35px;
+    }
+
+    .espBotao button{
+        width: 100%;
+        font-size: normal;
+    }
+    
+    .espBotao button:nth-child(1){
+        margin-right: 10px;
+    }
+    .espBotao button:nth-child(2){
+        margin-left: 10px;
+    }
+    
+    .espBotao{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+
+    .dadosPessoais div{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        width: 450px;
+    }
+
+    .cabecalho div{
+        height: 70px;
+        width: 3px;
+        background-color: white;
+        margin: 0px 10px;
+    }
+    
+    .cabecalho{
+        color: white;
+        display: flex;
+        align-items: center;
+    }
+
+    .navegacao{
+        height: 200px;
+        font-size: large;
+    }
+    .icone{
+        width: 50px;
+        height: 50px;
+    }
+    .perfil{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .fundoPerfil{
+        margin-right: 30px;
+    }
+    
+    .email{
+        text-align: left;
+    }
+     
+}
+
+   @media screen and (max-width: 570px){
+    .fundoPerfil{
+        margin-right: 0px;
+    }
+    .perfil div:nth-child(2){
+        text-align: center;
+    }
+    .perfil{
+        justify-content: center;
+    }
+
+    .codAcesso p{
+        background-color: #E7E7E7;
+        border-radius: 15px;
+        font-size: 19px;
+        padding: 5px;
+        width: 30px;
+    }
+
+    .cabecalho h1, .cabecalho div{
+        display: none;
+    }
+}
+
+.aviso2{
+    background-color: #e6e5e5;
+    padding: 30px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+td, tr {
+    border: 0;
+    text-align: left;
+    padding: 10px;
+}
+
+
+.linha1 th{
+    background-color: red;
+    color: white;
+    padding: 13px 10px;
+}
+
+.linha1 > :first-child{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.linha1 > :last-child{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+tbody > :nth-child(even) {
+    background-color: #e6e6e6;
+}
+
+tbody tr> :first-child{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+tbody tr> :last-child{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+form{
+    margin-top: 10px;
+}
+
+
+.pesquisa{
+    margin-bottom: 20px;
+}
+
+
+.lupa{
+    width: 25px;
+}
+
+
+.pesquisa form{
+    display: flex;
+    flex-direction: row;
+}
+.pesquisa button{
+    width: 44px;
+    height: 44px;
+    margin-top: 0px;
+    font-size: medium;
+}
+
+
+.pesquisa select{
+    margin: 0px 10px;
+}
+
+.pesquisa input[type='date']{
+    margin-left: 10px;
+}
+
+
+input[type="number"], input[type="date"]{
+    background-color: #e9e9e9;
+    height: 40px;
+    border-radius: 15px;
+    width: calc(100% - 24px);
+    padding: 0px 10px;
+    border: 2px solid transparent;
+    font-family: "Space Grotesk";
+    transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+}
+
+
+select{
+    background-color: #e9e9e9;
+    height: 44px;
+    border-radius: 15px;
+    width: 100%;
+    padding: 0px 10px;
+    border: 2px solid transparent;
+    font-family: "Space Grotesk";
+    transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+}
+
+
+input[type="number"]:hover, input[type="number"]:focus{
+    outline: none;
+    border-color: red;
+}
+
+
+input[type="date"]:hover, input[type="date"]:focus{
+    outline: none;
+    border-color: red;
+}
+
+
+select:hover, select:focus{
+    outline: none;
+    border-color: red;
+}
+
+/*RESPONSIVIDADE TABELA*/
+@media screen and (max-width: 830px) {
+
+    .carrinho{
+        color: white;
+        background-color: red;
+        padding: 15px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+}
+
+
+
+
+.calendario {
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 0;
+    width: 100%;
+}
+.dias{
+    color: red;
+}
+.calendario th, .calendario tr {
+    height: 40px;
+    border: 0;
+    text-align: center;
+    vertical-align: middle;
+    margin: 10px;
+}
+.calendario td{
+    width: calc(100%/7);
+    height: 40px;
+    border-radius: 15px;
+    text-align: center;
+    vertical-align: middle;
+    border: 0;
+    margin-bottom: 10px;
+}
+.month-title {
+    font-size: 24px;
+    margin: 10px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+    padding: 10px;
+    color: white;
+    border-radius: 30px;
+}
+.today {
+    background-color: #fa8787;
+    font-weight: bold;
+}
+.agendamento{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.seta_calendario{
+    width: 20px;
+    height: 20px;
+    transition: 0.3s;
+}
+#calendar{
+    width: 100%;
+}
+.seta_calendario2{
+    width: 20px;
+    height: 20px;
+    transform: rotate(180deg);
+    transition: 0.3s;
+}
+.seta_calendario:hover{
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+.seta_calendario2:hover{
+    transform: translateY(-5px) rotate(180deg);
+    transition: 0.3s;
+}
+
+.fundoOpaco{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    display: none;
+}
+
+.fundoOpaco2{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+
+.editTabela{
+    background-color: rgb(243, 243, 243);
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 30px;
+    z-index: 1002;
+    margin: 20px;
+}
+.verde{
+    background-color: rgb(10, 153, 10);
+}
+.verde:hover{
+    background-color: rgb(28, 197, 28);
+}
+.btnAgenda{
+    display: flex;
+    justify-content: space-between
+}
+
+.btnAgenda button{
+    width: calc(50% - 5px);
+}
+
+.horariosMarcados{
+    width: 300px;
+    height: 368px;
+    padding: 30px;
+    background-color: #eeeeee;
+    border-radius: 30px;
+    margin-left: 30px;
+}
+.horariosMarcados p{
+    padding: 10px;
+    background-color: #cccaca;
+    border-radius: 15px;
+}
+
+.horariosMarcados button{
+    font-size: medium;
+    height: 40px;
+}
+
+#horariosMarcados2{
+    height: 228px;
+    overflow: visible;
+    overflow-y: auto; 
+}
+
+#horariosMarcados2 p{
+    margin-right: 10px;
+}
+
+#horariosMarcados2::-webkit-scrollbar {
+    width: 12px; /* Largura da barra de rolagem */
+}
+
+#horariosMarcados2::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.25); /* Cor do fundo da barra de rolagem */
+    border-radius: 10px; /* Arredondar as bordas do fundo */
+}
+
+#horariosMarcados2::-webkit-scrollbar-thumb {
+    background: #888; /* Cor da parte que pode ser arrastada */
+    border-radius: 10px; /* Arredondar as bordas do "thumb" */
+}
+
+.tabelaCalendario{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 1000px){
+    .agendamento{
+        flex-wrap: wrap
+    }
+    .calendario th, .calendario td{
+        width: calc(100%/7);
+        height: calc(60vw/7);
+        padding: 5px;
+        font-size: 3vw;
+    } 
+    .horariosMarcados{
+        width: 100%;
+    }
+
+    .seta_calendario{
+        width: 30px;
+        height: 30px;
+    }
+    .seta_calendario2{
+        width: 30px;
+        height: 30px;
+        transform: rotate(180deg);
+    }
+
+    .horariosMarcados{
+        margin-left: 0px;
+    }
+
+    .tituloAgenda{
+        font-size: medium;
+    }
+
+    .month-title{
+        font-size: 3vw;
+    }
+
+    .nomeComp, .email {
+        text-align: center;
+    }
+    
+    .fundoPerfil{
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .agendamento{
+        flex-wrap: wrap
+    }
+    .calendario th, .calendario td{
+        width: calc(100%/7);
+        height: auto;
+        padding: 3px;
+        font-size: x-small;
+    } 
+    .horariosMarcados{
+        width: 100%;
+    }
+
+    .seta_calendario{
+        width: 20px;
+        height: 20px;
+    }
+    .seta_calendario2{
+        width: 20px;
+        height: 20px;
+        transform: rotate(180deg);
+    }
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+.close:hover, .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: po"Space Grotesk";
+}
+
+
+#image-field{
+    display: none;
+}
+.modal-Perfil{
+    display: flex;
+    justify-content: center;
+}
+
+.abreTrava{
+    display: flex;
+    justify-content: space-between;
+}
+
+.abreTrava button{
+    height: auto;
+    width: calc(50% - 10px);
+    padding: 20px;
+}
+
+.abreTrava button img{
+    width: 5vw;
+}
+
+.abreTrava button p{
+    margin: 0;
+}
+
+.agendado{
+    background-color: #ccc;
+    padding: 30px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+.agendado p{
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.manualDoUsuario{
+    border: solid 2px red;
+    color: red;
+    background-color: white;
+    padding: 30px;
+    border-radius: 30px;
+    width: calc(100%-60px);
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.manualDoUsuario img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.agendamentoVisao{
+    background-color:#E7E7E7;
+    border-radius: 30px;
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+}
+
+.agendamentoVisao h3{
+    background-color: red;
+    color: white;
+    padding: 20px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.agendamentoVisao h3 button {
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: none; 
+    padding: 0; 
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.agendamentoVisao h3 button img {
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+}
+
+.agendamentoVisao h3 button img:hover {
+    transform: rotate(90deg);
+    transition: 0.3s;
+}
+
+.agendamentoVisao .alinhamento{
+    display: flex;
+    margin: 20px;
+}
+.agendamentoVisao .alinhamento div{
+    width: 90%;
+}
+.agendamentoVisao p{
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.agendamentoVisao button{
+    width: 20px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 0px;
+    padding: 0px;
+}
+
+.agendamentoVisao form{
+    margin: 0px;
+}
+
+@media (max-width: 550px) {
+    .agendamentoVisao{
+        width: 100%;
+    }
+}
+
+.refresh{
+    margin-left: 10px;
+}
+
+.cardAgenda{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hoverPerfil{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute; /* Posiciona a imagem em relação ao contêiner */
+    top: 0;
+    left: 0;
+    width: 200px; /* Ou defina um tamanho específico, como 50px */
+    height: 200px; /* Ou defina um tamanho específico */
+    object-fit: contain; /* Mantém a proporção da imagem */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    cursor: pointer;
+}
+
+.hoverPerfil img{
+    width: 50%;
+    height: 50%;
+}
+
+.fundoPerfil:hover .hoverPerfil{
+    display: flex;
+}
+
+.boxBtn{
+    background-color: #e9e9e9;
+    padding: 30px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.statusCarrinho{
+    background-color: #c9c9c9;
+    padding: 10px;
+    width: calc(100% - 20px);
+    text-align: center;
+    font-size: large;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.formDevBtn{
+    border: 2px solid red;
+    padding: 20px;
+    border-radius: 30px;
+}
+
