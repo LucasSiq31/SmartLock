@@ -4,7 +4,7 @@
 
 - A temática do nosso projeto é uma aplicação para o bloqueio e desbloqueio de um carrinho com uma trava para proteção dos notebooks.
 - O objetivo do projeto é criar um sistema de controle e gerenciamento para a retirada e devolução de carrinhos de notebooks, utilizando um site para registrar as informações e destravar o carrinho por meio do site, assim garantindo segurança e organização no processo.
-- 
+
 ##
 <b>Em casos de dúvida, acesse o manual do usuário para ver o passo a passo da inicialização:</b>
 
