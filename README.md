@@ -1,21 +1,48 @@
-<h2>SmartLock Pro</h2>
+# 🔒 SmartLock Pro
 
-<b>Como Funciona:</b>
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JS](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![XAMPP](https://img.shields.io/badge/XAMPP-FB7A24?style=for-the-badge&logo=xampp&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
-- A temática do nosso projeto é uma aplicação para o bloqueio e desbloqueio de um carrinho com uma trava para proteção dos notebooks.
-- O objetivo do projeto é criar um sistema de controle e gerenciamento para a retirada e devolução de carrinhos de notebooks, utilizando um site para registrar as informações e destravar o carrinho por meio do site, assim garantindo segurança e organização no processo.
+O **SmartLock Pro** é uma solução inteligente de controle e gerenciamento para o bloqueio e desbloqueio de carrinhos de transporte de notebooks. O projeto une uma interface web a um sistema de trava física para garantir que equipamentos valiosos sejam retirados e devolvidos com máxima segurança e rastro de informações.
 
-##
-<b>Em casos de dúvida, acesse o manual do usuário para ver o passo a passo da inicialização:</b>
+---
 
-https://heyzine.com/flip-book/44d388fcf2.html
+### 🎯 Objetivo do Projeto
 
-##
+O foco principal é otimizar o fluxo de uso de dispositivos compartilhados, oferecendo:
+* **Segurança Reforçada:** Bloqueio físico dos carrinhos através de travas eletrônicas.
+* **Gestão Centralizada:** Registro detalhado de quem retirou e devolveu o equipamento.
+* **Agilidade:** Interface web intuitiva para destravar o carrinho remotamente ou via terminal local.
+* **Organização:** Controle total sobre a disponibilidade dos carrinhos em tempo real.
 
-<b>Feito com:</b>
-<div style="display: inline_block"><br>
-  <img width='50px' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
-  <img width='50px' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
-  <img width='50px' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
-  <img width='50px' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" />
-</div>
+---
+
+### 📖 Guia de Utilização
+
+Para entender como inicializar o sistema e configurar a trava, acesse nosso manual detalhado:
+
+👉 [**Manual do Usuário - Passo a Passo**](https://heyzine.com/flip-book/44d388fcf2.html)
+
+---
+
+### 🛠️ Tecnologias Utilizadas
+
+O ecossistema do SmartLock Pro foi construído com:
+
+| Camada | Tecnologias |
+| :--- | :--- |
+| **Frontend** | HTML5, CSS3 e JavaScript |
+| **Backend** | PHP (Processamento e Integração) |
+| **Hardware** | Integração com travas eletrônicas/microcontroladores |
+
+---
+
+### ⚙️ Como funciona a arquitetura?
+1. O usuário acessa o painel via **SmartLock Pro Web**.
+2. Após a autenticação, o comando de "Desbloqueio" é enviado via servidor (**PHP**).
+3. A trava física recebe o sinal e libera o acesso ao carrinho.
+4. O sistema registra o horário e o responsável pela movimentação.
