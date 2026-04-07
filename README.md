@@ -46,3 +46,18 @@ O ecossistema do SmartLock Pro foi construído com:
 2. Após a autenticação, o comando de "Desbloqueio" é enviado via servidor (**PHP**).
 3. A trava física recebe o sinal e libera o acesso ao carrinho.
 4. O sistema registra o horário e o responsável pela movimentação.
+
+## 👤 Autor
+Desenvolvido por **Lucas Siqueira**
+
+<p align="center">
+  <a href="mailto:lucas.alves.siqueira31@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
+  </a>
+  <a href="https://www.linkedin.com/in/lucas-siqueira-1b301b321">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="https://github.com/LucasSiq31">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
+</p>
