@@ -50,7 +50,7 @@ O ecossistema do SmartLock Pro foi construído com:
 ## 👤 Autor
 Desenvolvido por **Lucas Siqueira**
 
-<p align="center">
+<p>
   <a href="mailto:lucas.alves.siqueira31@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
   </a>
